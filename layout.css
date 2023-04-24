@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%; /* muutetaan fonttikoko 62.5% x 16px = 10px --> käytä fonttikoon muuttamiseen bodyn sisällä yksikköä rem */
+}
+
+body {
+  font-family: "Phudu", cursive, sans-serif;
+  margin: 1rem;
+}
+h1,
+p,
+figure {
+  margin-block-end: 1rem;
+}
+h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1.6rem;
+}
+
+figure {
+  display: block;
+}
+figure img {
+  max-width: 100%;
+}
